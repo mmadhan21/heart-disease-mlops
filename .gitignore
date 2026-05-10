@@ -108,3 +108,30 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 api_requests.log
+
+# Extra ignores
+heart-api.tar
+*.tar
+mlops_env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+api_requests.log
+
+# Extra ignores
+heart-api.tar
+*.tar
+mlops_env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+api_requests.log
+
+# Extra ignores
+heart-api.tar
+*.tar
+mlops_env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+api_requests.log
