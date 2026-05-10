@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/madhanma/OneDrive - Cisco/Github/MLOps/heart-disease-mlops/mlruns/971894354608236588/models/m-2b49018ef0f0481996c89012bae8bed1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-2b49018ef0f0481996c89012bae8bed1
+model_size_bytes: 465843
+model_uuid: m-2b49018ef0f0481996c89012bae8bed1
+prompts: null
+run_id: 4403690371694023a3bef9db3259f7bc
+utc_time_created: '2026-05-10 05:16:51.454680'

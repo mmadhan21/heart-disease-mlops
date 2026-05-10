@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/madhanma/OneDrive - Cisco/Github/MLOps/heart-disease-mlops/mlruns/971894354608236588/4403690371694023a3bef9db3259f7bc/artifacts
+end_time: 1778390220627
+entry_point_name: ''
+experiment_id: '971894354608236588'
+lifecycle_stage: active
+run_id: 4403690371694023a3bef9db3259f7bc
+run_name: Random_Forest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778390198205
+status: 3
+tags: []
+user_id: madhanma

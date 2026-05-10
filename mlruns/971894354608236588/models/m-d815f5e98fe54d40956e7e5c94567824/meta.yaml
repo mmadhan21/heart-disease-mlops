@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/madhanma/OneDrive - Cisco/Github/MLOps/heart-disease-mlops/mlruns/971894354608236588/models/m-d815f5e98fe54d40956e7e5c94567824/artifacts
+creation_timestamp: 1778390178598
+experiment_id: '971894354608236588'
+last_updated_timestamp: 1778390196908
+model_id: m-d815f5e98fe54d40956e7e5c94567824
+model_type: null
+name: Logistic_Regression
+source_run_id: af4cda775e6e4a2aad1fa8a303f80444
+status: 2
+status_message: null

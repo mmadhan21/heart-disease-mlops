@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/madhanma/OneDrive - Cisco/Github/MLOps/heart-disease-mlops/mlruns/971894354608236588/models/m-2b49018ef0f0481996c89012bae8bed1/artifacts
+creation_timestamp: 1778390211204
+experiment_id: '971894354608236588'
+last_updated_timestamp: 1778390220464
+model_id: m-2b49018ef0f0481996c89012bae8bed1
+model_type: null
+name: Random_Forest
+source_run_id: 4403690371694023a3bef9db3259f7bc
+status: 2
+status_message: null

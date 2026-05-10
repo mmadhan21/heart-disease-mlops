@@ -1,0 +1,8 @@
+artifact_location: file:C:/Users/madhanma/OneDrive - Cisco/Github/MLOps/heart-disease-mlops/mlruns/971894354608236588
+creation_time: 1778390166550
+experiment_id: '971894354608236588'
+last_update_time: 1778390166550
+lifecycle_stage: active
+name: Heart_Disease_Classification
+trace_location: null
+workspace: default

@@ -1,0 +1,36 @@
+# =============================================================
+# Heart Disease MLOps Pipeline
+# File    : monitoring/prometheus.yml
+# Purpose : Prometheus scrape configuration.
+#           Tells Prometheus where to collect metrics from.
+#           Our FastAPI app exposes metrics at GET /metrics
+# =============================================================
+
+global:
+  # How often Prometheus collects metrics from targets
+  scrape_interval: 15s
+  # How often Prometheus evaluates alerting rules
+  evaluation_interval: 15s
+
+scrape_configs:
+
+  # ── Scrape Prometheus itself ───────────────────────────
+  - job_name: "prometheus"
+    static_configs:
+      - targets: ["localhost:9090"]
+
+  # ── Scrape our FastAPI app ─────────────────────────────
+  # host.docker.internal resolves to the host machine
+  # from inside a Docker container (Windows/Mac).
+  # If the API is running directly (not in Docker), use:
+  #   localhost:8000
+  # If the API is in Docker on same network, use:
+  #   heart-api:8000
+  - job_name: "heart-disease-api"
+    scrape_interval: 10s
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["host.docker.internal:8000"]
+        labels:
+          service: "heart-disease-api"
+          environment: "local"

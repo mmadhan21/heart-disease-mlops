@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/madhanma/OneDrive - Cisco/Github/MLOps/heart-disease-mlops/mlruns/971894354608236588/af4cda775e6e4a2aad1fa8a303f80444/artifacts
+end_time: 1778390198171
+entry_point_name: ''
+experiment_id: '971894354608236588'
+lifecycle_stage: active
+run_id: af4cda775e6e4a2aad1fa8a303f80444
+run_name: Logistic_Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778390167260
+status: 3
+tags: []
+user_id: madhanma
